@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CoordinatorLayoutDemo</string>
+    <string name="home">home</string>
+    <string name="user_profile">profile</string>
+</resources>
