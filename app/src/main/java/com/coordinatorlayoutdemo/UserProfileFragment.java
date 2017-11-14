@@ -7,21 +7,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.coordinatorlayoutdemo.databinding.FragmentCelebProfilieBinding;
+import com.coordinatorlayoutdemo.databinding.FragmentUserProfilieBinding;
 
 /**
  * Created by Vishal on 21/9/17.
  */
 
-public class CelebrityOwnProfileFragment extends Fragment {
+public class UserProfileFragment extends Fragment {
 
 
-    private FragmentCelebProfilieBinding binding;
+    private FragmentUserProfilieBinding binding;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        binding = FragmentCelebProfilieBinding.inflate(inflater, container, false);
+        binding = FragmentUserProfilieBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 

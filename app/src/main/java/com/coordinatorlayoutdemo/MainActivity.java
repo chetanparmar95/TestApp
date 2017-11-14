@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         binding.bottomNavigation.userProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FragmentHelper.getInstance().replaceFragment(supportFm, R.id.container_body, new CelebrityOwnProfileFragment(), getString(R.string.user_profile), getString(R.string.user_profile));
+                FragmentHelper.getInstance().replaceFragment(supportFm, R.id.container_body, new UserProfileFragment(), getString(R.string.user_profile), getString(R.string.user_profile));
             }
         });
     }
